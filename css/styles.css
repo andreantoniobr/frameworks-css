@@ -1,0 +1,119 @@
+/*------------------------- */
+  /* Helpers
+/*------------------------- */
+.text-primary {
+    color: #284d91 !important;
+}
+
+.card-reason {
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.bg-primary {
+    background-color: #284d91 !important;
+}
+
+.bg-dark {
+    background-color: #1e3b71 !important;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*------------------------- */
+  /* Buttons
+/*------------------------- */
+.btn {
+    background: transparent;
+    box-shadow: none !important;
+    -ms-flex-align: center;
+    align-items: center;
+    border-width: 0px;
+    border-radius: 0px;
+    border-style: solid;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    line-height: 1.5;
+    padding: 0.5rem 1.25rem;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: normal;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+}
+
+.fast-option {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #284d91;
+    margin-bottom: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.fast-option-title {
+    font-size: 1.2rem;
+}
+
+.fast-option i {
+    font-size: 2rem;
+    margin: 0 auto !important
+}
+
+.fast-option:hover,.fast-option:active,.fast-option:focus {
+    transform: scale(1.2);
+    background: #f58634 !important;
+    box-shadow: 0 6px 20px 0 rgba(245,134,52,0.6) !important
+}
+
+.btn-dark {
+    background: #1e3b71 !important;
+    color: #fff;
+    border-color: #1e3b71 !important;
+    box-shadow: 0px 6px 25px -11px #1e3b71 !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s
+}
+
+.btn-dark:hover,.btn-dark:active,.btn-dark:focus {
+    box-shadow: 0px 14px 30px -11px #1e3b71 !important;
+    background: #1e3b71 !important;
+    border-color: #1e3b71;
+    color: #fff !important
+}
+
+.card-height img {
+    height: 10rem;
+    object-fit: cover;
+}
+
+/*------------------------- */
+  /* Medias
+/*------------------------- */
+@media only screen and (min-width:768px) {
+    .fast-option {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .fast-option-title {
+        font-size: 2rem;
+    }
+
+    .card-height img {
+        height: 15rem;
+    } 
+    
+    .fast-option {
+        margin-bottom: 1.5em;
+    }
+
+    .featurette-divider {
+        margin: 5rem 0 !important; 
+    }
+}
